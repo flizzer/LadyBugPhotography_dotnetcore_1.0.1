@@ -1,0 +1,8 @@
+/Users/bdavis/Documents/Development/LadyBugPhotography_dotnetcore_1.0.1/bin/Debug/netcoreapp1.1/LadyBugPhotography_dotnetcore_1.0.1.deps.json
+/Users/bdavis/Documents/Development/LadyBugPhotography_dotnetcore_1.0.1/bin/Debug/netcoreapp1.1/LadyBugPhotography_dotnetcore_1.0.1.runtimeconfig.json
+/Users/bdavis/Documents/Development/LadyBugPhotography_dotnetcore_1.0.1/bin/Debug/netcoreapp1.1/LadyBugPhotography_dotnetcore_1.0.1.runtimeconfig.dev.json
+/Users/bdavis/Documents/Development/LadyBugPhotography_dotnetcore_1.0.1/bin/Debug/netcoreapp1.1/LadyBugPhotography_dotnetcore_1.0.1.dll
+/Users/bdavis/Documents/Development/LadyBugPhotography_dotnetcore_1.0.1/bin/Debug/netcoreapp1.1/LadyBugPhotography_dotnetcore_1.0.1.pdb
+/Users/bdavis/Documents/Development/LadyBugPhotography_dotnetcore_1.0.1/obj/Debug/netcoreapp1.1/LadyBugPhotography_dotnetcore_1.0.1.AssemblyInfo.cs
+/Users/bdavis/Documents/Development/LadyBugPhotography_dotnetcore_1.0.1/obj/Debug/netcoreapp1.1/LadyBugPhotography_dotnetcore_1.0.1.dll
+/Users/bdavis/Documents/Development/LadyBugPhotography_dotnetcore_1.0.1/obj/Debug/netcoreapp1.1/LadyBugPhotography_dotnetcore_1.0.1.pdb
