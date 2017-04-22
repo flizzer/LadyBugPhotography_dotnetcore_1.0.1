@@ -39,18 +39,14 @@
             </div>
         </div>
     </nav>
-    <header>
-        <div>LadyBug Photography</div>
-    </header>
-    <div class="body">
-    <!--<div class="container body-content">-->
+    <div class="content">
         @RenderBody()
-        <!--<hr />-->
-        <footer>
-            <p>&copy; 2016 - LadyBug Photography</p>
-        </footer>
     </div>
-
+    <div class="spacer">
+    </div>
+   <footer class="footer">
+        <p>&copy; 2016 - LadyBug Photography</p>
+    </footer> 
     <environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
@@ -67,7 +63,6 @@
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
-
     @RenderSection("scripts", required: false)
 </body>
 </html>

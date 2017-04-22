@@ -1,7 +1,5 @@
 
 body {
-    /*padding-top: 50px;
-    padding-bottom: 20px;
     background:
             -moz-radial-gradient(black 15%, transparent 16%),
             -moz-radial-gradient(black 15%, transparent 16%),
@@ -11,29 +9,31 @@ body {
             -webkit-radial-gradient(black 15%, transparent 16%),
             orangered;
     background-position: 0 0, 80px 80px;
-    -webkit-background-size:160px 160px;*/
-    /*-moz-background-size:160px 160px;*/
-    /*width: 100%;*/
-    font-family: 'Cedarville Cursive', cursive; 
-    
+    background-size: 160px 160px;
+    -webkit-background-size:160px 160px;
+    -moz-background-size:160px 160px;
+    text-align: center;
+    color: white;
+    font-family: 'Cedarville Cursive', cursive;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-.body-content {
-     
-    /*padding-left: 15px;
-    padding-right: 15px;*/
+.content {
+    flex-shrink: 0; 
 }
 
-/* Set widths on the form inputs since otherwise they're 100% wide */
+.spacer {
+    flex: 1;
+}
+
 input,
 select,
 textarea {
     max-width: 280px;
 }
 
-/* Carousel */
 .carousel-caption p {
     font-size: 20px;
     line-height: 1.4;
@@ -60,73 +60,15 @@ textarea {
   }
 }*/
 
-/*#jumbotron {
-    padding: 0px;
-    margin: 0px
-}*/
-
-header {
-    height: 100%;
-    width: 100%;
-    padding: 0px;
-    background-image: url("/css/images/DavisFamily1.jpg");
-    background-size: cover;
-    min-height: 100%;
-}
-
-.greeting {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    background:
-            -moz-radial-gradient(black 15%, transparent 16%),
-            -moz-radial-gradient(black 15%, transparent 16%),
-            orangered;
-    background:
-            -webkit-radial-gradient(black 15%, transparent 16%),
-            -webkit-radial-gradient(black 15%, transparent 16%),
-            orangered;
-    background-position: 0 0, 80px 80px;
-    -webkit-background-size:160px 160px;
-    -moz-background-size:160px 160px;
-    text-align: center;
-    color: white;
-    /*display: block;*/
-    /*width: 100%;*/
-}
-
-/*blockquote {
-    font-size: 45pt;
-    font-family: "Raleway";
-    color: white;
-    border: 0px;
-}*/
-
 footer {
     background-color: black;
+}
+
+.footer {
+    flex-shrink: 0;
 }
 
 footer p {
     color: #9d9d9d;
     margin: 0px;
 }
-
-/*a.navbar-brand {
-    font-family: 'Cedarville Cursive', cursive;    
-}
-
-.navbar-nav li a {
-    font-family: 'Cedarville Cursive', cursive;    
-}*/
-
-/*@media screen and (min-width: 1200px)
-{
-    .carousel-slide {
-        width:800px;
-        height: 600px;
-    }
-}*/
-
-/*.carousel-dimensions {
-    width: 800px;
-    height: 600px;
-}*/
