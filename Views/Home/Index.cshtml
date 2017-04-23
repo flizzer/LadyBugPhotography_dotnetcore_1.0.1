@@ -1,4 +1,4 @@
-@{ ViewData["Title"] = "Home Page"; }
+@{ ViewData["Title"] = "Home"; }
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
 	<ol class="carousel-indicators">
@@ -31,14 +31,15 @@
 	</a>
 </div>
 <section class="greeting">
+	<p></p>
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-5">
 			<p>
-				<h1>Hi, I'm Deanna!</h1>  <h2>Contact me to give life to your vision!</h2>
+				<h1>Hi, I'm Deanna!</h1>  <h2><a asp-action="Contact">Contact me</a> to discuss capturing your special moment today!</h2>
 			</p>
         </div>
-        <div class="col-md-6">
-            <img class="img-circle" src="~/images/deanna.jpg">
+        <div class="col-md-7">
+            <img class="img-circle" src="~/images/dandm.jpg">
         </div>
     </div>
 </section>
