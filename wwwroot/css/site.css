@@ -77,3 +77,9 @@ footer p {
     text-decoration: underline;
     color: white;
 }
+
+.greetingText {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
